@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.FindContactsText {
+    text-align: center;
+    font-size: 14px;
+}
+.InputFilter {
+    margin: 5px auto 20px auto;
+    outline: 2px solid grey;
+    border: none;
+    border-radius: 8px;
+    width: 200px;
+    height: 20px;
+}
+
+.FilterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

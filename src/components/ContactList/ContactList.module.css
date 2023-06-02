@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ContactList {
+  display: flex;
+  flex-direction: column;
+}
+.ContactListItem {
+  margin: 5px auto 10px auto;
+  display: flex;
+
+}
+.Name {
+  font-size: 20px;
+  font-style: italic;
+}
+.BtnSubmit {
+  display: inline;
+  width: 80px;
+  height: 25px;
+  cursor: pointer;
+  border: 1px solid grey;
+  border-radius: 8px;
+  transition: all 300ms ease;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.BtnSubmit:hover, .BtnSubmit:focus {
+    background-color: aliceblue;
+    color: grey;
+    border: 2px solid goldenrod;
+}
