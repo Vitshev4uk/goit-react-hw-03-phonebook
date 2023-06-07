@@ -16,9 +16,11 @@ class App extends Component {
     }
   }
 
-  componentDidUpdate() {
-    const { contacts } = this.state;
-    localStorage.setItem('All contacts', JSON.stringify(contacts));
+  componentDidUpdate(prevState) {
+    if (this.state.contacts !== prevState.contacts) {
+      localStorage.setItem('All contacts', JSON.stringify(this.state.contacts))
+      
+    }
   }
 
   updateContacts = newContacts => {
